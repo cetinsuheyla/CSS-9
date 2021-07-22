@@ -1,0 +1,40 @@
+div {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.first {
+  background: #B5EAEA;
+  transition-property: width;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.first:hover {
+  width: 200px;
+}
+
+
+.second {
+  background: #FFBCBC;
+  transition: background 1.5s, width 1.5s;
+  transition-timing-function: linear;
+}
+
+.second:hover {
+  background: #FAEBE0;
+  width: 300px;
+}
+
+.third {
+  background: #F38BA0;
+  transition: background 1s, transform 1s;
+  transition-timing-function: ease-in;
+}
+
+.third:hover {
+  background: #B5CDA3;
+  transform: rotate(45deg);
+}
